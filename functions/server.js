@@ -1,18 +1,18 @@
 import express from 'express';
 import serverless from 'serverless-http';
 import bodyParser from 'body-parser';
-import { dirname } from 'path';
 import { fileURLToPath } from 'url';
+import path from 'path';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 
 // Static Files
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, '../public')));
 
 // Set View's
-app.set('views', './views');
+app.set('views', path.join(__dirname, '../views'));
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({ extended: true }));
