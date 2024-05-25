@@ -9,7 +9,7 @@ const router = express.Router();
 app.use(express.static('public'));
 
 // Set View's
-app.set('views', './views');
+app.set('views', `${process.cwd()}/views`);
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 
