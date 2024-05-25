@@ -1,0 +1,21 @@
+.faqs-all-cont{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faqs1{
+    display: flex;
+    align-items: center;
+    background-color: #bd3722;
+    width: 100%;
+    height: 150px;
+}
+.faqs2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

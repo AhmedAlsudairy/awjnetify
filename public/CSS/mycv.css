@@ -1,0 +1,139 @@
+
+.mycv{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.sidebar{
+	white-space: pre-line;
+	color: whitesmoke;
+    flex: 0 0 320px;
+	background-color: #bd3722;
+	padding: 20px;
+	box-sizing: border-box;
+	
+
+}
+
+.sidebar h2 {
+	margin: 0 0 10px;
+}
+
+.sidebar p {
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.sidebar ul {
+	list-style: square white;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+.sidebar li {
+	list-style: square white;
+	margin-bottom: 5px;
+}
+
+
+.senimg{
+    width: 65%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15%;
+}
+
+
+
+.aboutcont{
+    background-color: #cecbcb;
+    padding:1vw;
+}
+
+.cvdetails{
+    flex: 1;
+    font-size: larger;
+	box-sizing: border-box;
+
+}
+.cvdetails h2 {
+	margin:15px;
+	font-size: 24px;
+}
+
+.cvdetails h3 {
+	margin:15px;
+	font-size: 20px;
+}
+
+.cvdetails p {
+	margin: 0;
+    padding: 5% 5% 1%;
+    max-width: 85%;
+	margin-bottom: 10px;
+}
+
+.experience{
+    padding: 1vw;
+}
+.education{
+    padding: 1vw;
+}
+.secondpage{
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.certificate{
+	flex: 1;
+    font-size: larger;
+	box-sizing: border-box;
+	padding: 1vw;
+}
+
+.certificate h2 {
+	margin:15px;
+	font-size: 24px;
+}
+
+.certificate h3 {
+	margin:15px;
+	font-size: 20px;
+}
+
+.certificate p {
+	margin: 0;
+    padding: 5% 5% 1%;
+    max-width: 85%;
+	margin-bottom: 10px;
+}
+
+.certificate i {
+
+	color:#7b7b7b ;
+
+}
+
+.sidesec{
+	white-space: pre-line;
+	color: whitesmoke;
+    flex: 0 0 320px;
+	background-color: #bd3722;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.reference{
+	padding: 1vw;
+	font-size: small;
+}

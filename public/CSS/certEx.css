@@ -1,0 +1,85 @@
+.allcont{
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    
+}
+
+.senimg{
+    height: 180px;
+    border-radius: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 30px auto;
+}
+.btnss{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.351);
+    padding-bottom: 5%;
+
+}
+.btnss button{
+    border: 1px solid rgba(0, 0, 0, 0.383);
+    margin: 0px 2px;
+}
+.grp{
+    margin-top: 10px;
+    padding: 3px 0px;
+}
+.probtn{
+
+    background-color: #bd3722;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+}
+.probtn:hover{
+    transition: 0.3s;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.438);
+    cursor: pointer;
+}
+
+.profile{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    background-color: #bd3722;
+}
+.info{
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.disp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.disp p{
+    margin: 10px 0px;
+    color: white;
+}
+
+.discription{
+    padding: 3%;
+}
+.discription h2{
+    margin: 10px auto;
+    color: #bd3722;
+}
+.discription p{
+    margin-left: 15%;
+    width: 75%;
+}

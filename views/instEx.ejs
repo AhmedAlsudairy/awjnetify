@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web name and  favicon-->
+    <title>AWJ</title>
+    <link rel="icon" type="image/x-icon" sizes="25x25" href="images/logo.png">
+
+    <!-- Font link used in this website!-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Style sheets-->
+    <link rel="stylesheet" href="CSS/instEx.css">
+    <link rel="stylesheet" href="CSS/header.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <%- include("partials/headerh.ejs"); %>
+    <div class="instEx-cont">
+        <div class="cont1">
+            <img src="images/sensor.JPEG" alt="sensor" class="senimg">
+            <h2 Style="color: #bd3722;">SENSOR EPS</h2>
+            <p Style="color: #bd3722; opacity: 80%;">@sensor.eps</p>
+        </div>
+        <div class="cont2">
+            <h3 Style="color: #bd3722;">Description</h3>
+            <p Style="color: #bd3722; text-align: center; opacity: 80%;">The sensor company offers electronics and programming services, providing various workshops focused on programming and electronics. We assist students in developing their project ideas with us</p>
+            <h3 Style="color: #bd3722;">Categories</h3>
+            <p Style="color: #bd3722; text-align: center; opacity: 80%;">Programing and electronics</p>
+        </div>
+
+        <h1 class="cont3-title"> Courses</h1>
+        <div Class="cont3">
+
+            <div class="Coursexx">
+                <div class="mnContainer">
+                  <img src="images/arduino.jpg" alt="m1" class="m1">
+                  <div>
+                    <p class="userName">Arduino</p>
+                  </div>
+                </div>
+                <div class="userinfo">
+                  <h4 class="edith4"> Description: </h4>
+                  <p class="spec"> Arduino is an open-source platform with a small
+                    hardware board and user-friendly coding environment. It
+                    enables people of all skill levels to create a wide range of
+                    electronic projects, from simple gadgets to complex
+                    inventions, making it a popular choice for learning and
+                    innovation in electronics and programming.</p>
+                    <button class="enrolll">Enroll</button>
+                </div>
+              </div>
+
+              <div class="Coursexx">
+                <div class="mnContainer">
+                  <img src="images/iot.jpeg" alt="m1" class="m1">
+                  <div>
+                    <p class="userName">IOT</p>
+                  </div>
+                </div>
+                <div class="userinfo">
+                  <h4 class="edith4"> Description: </h4>
+                  <p class="spec"> IOT, or the Internet of Things, connects
+                    everyday objects to the internet, enabling
+                    data collection and remote control. It
+                    transforms how we interact with and
+                    manage our environment for increased
+                    efficiency and convenience.</p>
+                    <button class="enrolll">Enroll</button>
+                </div>
+              </div>
+
+
+              <div class="Coursexx">
+                <div class="mnContainer">
+                  <img src="images/3d.jpeg" alt="m1" class="m1">
+                  <div>
+                    <p class="userName">3D printer</p>
+                  </div>
+                </div>
+                <div class="userinfo">
+                  <h4 class="edith4"> Description: </h4>
+                  <p class="spec"> 3D printing is a technology that creates 3D
+                    objects by layering material based on a digital
+                    design. It's used in manufacturing, medicine,
+                    and more, enabling rapid prototyping and
+                    complex, customised creations. It's accessible
+                    to hobbyists and professionals alike, driving
+                    innovation in various fields</p>
+                    <button class="enrolll">Enroll</button>
+                </div>
+              </div>
+        </div>
+
+    </div>
+
+    
+    <%- include("partials/footer.ejs"); %>
+</body>
+</html>

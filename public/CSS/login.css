@@ -1,0 +1,79 @@
+.body{
+    margin: 0px;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 70%;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 200px auto 110px auto;
+    padding: auto;
+    position: relative;
+}
+.logint{
+    color: #bd3722;
+    margin-bottom: 40px;
+}
+.z1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.label1{
+    font-size: 18px;
+    color: #bd3722;
+    margin-bottom: 15px;
+}
+.txt1{
+    font-size: 18px;
+    padding: 10px;
+    color: #bd3722;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 1px solid #bd3722;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btnloginx{
+    width: 100px;
+    height: 40px;
+    background-color: #bd3722;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+}
+.register{
+    margin: 30px auto;
+    display: block;
+    text-decoration: none;
+    color: #bd3722;
+}
+.btnloginx:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.register:hover{
+    opacity: 90%;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+
+    .txt1{
+        height: 30px;
+        width: 200px;
+        margin-bottom: 13px;
+    }
+}

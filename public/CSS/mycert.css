@@ -1,0 +1,78 @@
+.certcont{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.mycert-title{
+    color: #bd3722;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.newcer{
+    border: 1px solid #bd3722;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color:#bd3722;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.newcer:hover{
+    background-color: #bd3722;
+    color: white;
+    cursor: pointer;
+}
+.backbtn{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #bd3722;
+    color:white;
+    font-size: 18px;
+}
+.backbtn:hover{
+    background-color: white;
+    color: #bd3722;
+    border: 1px solid #bd3722;
+}
+.cont1{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.inst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 310px;
+    width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+.m1-cert{
+    height: 170px;
+    border-radius: 10px;
+}
+.userinfo{
+    display: flex;
+    align-items: center;
+}
+.spec{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .cont1{
+        flex-direction: column;
+    }
+    .inst{
+        margin-bottom: 30px;
+    }
+}

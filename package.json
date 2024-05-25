@@ -1,0 +1,22 @@
+{
+  "name": "awj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7",
+    "php-node": "^0.0.2",
+    "url": "^0.11.3"
+  },
+  "description": ""
+}
